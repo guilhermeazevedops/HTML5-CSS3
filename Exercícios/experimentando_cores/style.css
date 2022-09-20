@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative:wght@400;700;900&family=Raleway:wght@300;400&display=swap');
+
+body{
+    color:white;
+    background-color: #8bb63480;
+    text-align: justify;
+}
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+    height: 50px;
+    width: 400px;
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: normal;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    background-color: #a43473;
+    
+}
+h2{
+    background-color:#246b78 ;
+    
+}
+p{
+    background-color:#d29052 ;
+}
+
+
+

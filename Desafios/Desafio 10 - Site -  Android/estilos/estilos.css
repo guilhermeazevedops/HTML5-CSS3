@@ -1,0 +1,249 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
+:root{
+     --cor0:#c5ebd6;
+     --cor1:#83e1ad;
+     --cor2:#3ddc84;
+     --cor3:#2fa866;
+     --cor4:#1a5c37;
+     --cor5:#063d1e;
+     --branco:#ffffff;
+     
+     --fonte-paragrafos:Arial,Verdana,Helvetica,sans-serif;
+     --fonte-titulo:'Bebas Neue', cursive;
+     --fonte-tematica: 'Android', serif;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-paragrafos);
+}
+a.externo::after{
+    content: '\1F517';
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
+    min-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+  
+
+}
+
+header h1{
+    font-family: var(--fonte-titulo);
+    color:var(--branco);
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+    
+}
+
+header p{
+    color:var(--branco);
+    font-family: var(--fonte-paragrafos);
+    font-size: 1.2em;
+    max-width: 600px;
+    margin:auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+}
+
+nav {
+    background-color: var(--cor5);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.616);
+    padding: 10px;
+    
+}
+
+
+nav a{
+    color:var(--branco);
+    text-decoration: none;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    
+}
+
+nav a:hover{
+    background-color: var(--cor3);
+    transition:1s;
+}
+nav a:active{
+    
+    background-color: var(--cor2);
+    transition: 0.3s;
+}
+
+ 
+
+
+
+abbr{
+    text-decoration: none;
+}
+
+abbr:hover{
+    text-decoration: underline;
+   
+}
+  
+
+
+main{
+    background-color: var(--branco);
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 20px;
+    padding:20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 15px; /* TEXT-INDENTE Tabula o começo do parágrafo da um pequeno espaço. */
+    line-height: 1.5em; /* LINE-HEIGHT Configura a Altura das linhas- Facilita para ler */
+    font-size: 1.1em;
+}
+
+main strong{
+    color:var(--cor4);
+    font-weight: bolder;
+}
+main a{
+    color:var(--cor5);
+    background-color: #a7fccd;
+    padding: 1px 6px; 
+    text-decoration: none;
+
+    
+}
+main a:hover{
+    text-decoration: underline;
+    color:var(--cor3);
+    
+}
+main a:active{
+    color:var(--cor5);
+}
+main h1{
+    color:var(--cor5);
+    font-family: var(--fonte-tematica);
+}
+main h2{
+    font-size: 1.3em;
+    color:var(--cor4);
+    font-family: var(--fonte-tematica);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+   
+}
+
+main img{
+    width: 100%;
+}
+
+
+footer a{
+    color:var(--branco);
+   
+}
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding:10px;
+    position:relative;
+    padding-bottom: 59%;
+}
+div.video iframe{
+   position:absolute;
+   top:5%;
+   left:5%;
+   width: 90%;
+   height: 90%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+aside h1{
+    background-color: var(--cor4);
+    color:white;
+    font-weight: normal;
+    font-family: var(--fonte-paragrafos);
+    padding:5px;
+    margin: -10px -10px 0px -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+aside ul{
+    list-style-type: '\2714';
+    list-style-position: inside;
+    columns: 2;
+}
+aside a{
+    background-color:var(--cor1) ;
+}
+aside{
+    background-color: var(--cor1);
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.336);
+}
+footer{
+    background-color: var(--cor5);
+    color:var(--branco);
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color:var(--cor1);
+}
+
+footer p{
+    color:white;
+}

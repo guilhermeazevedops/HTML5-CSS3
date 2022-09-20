@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo - Elementos</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .anemo{
+            color:darkblue;
+        }
+        .pyro{
+            color:darkred;
+        }
+        li:hover{
+            text-decoration: underline;
+        }
+        #um:hover{
+            color:red;
+        }
+        #dois:hover {
+            color:red;
+
+        }
+        #tres::after{
+            color:red;
+            counter-reset: 'olá';
+
+        }
+        #quatro:hover{
+            color:red;
+
+        }
+      
+        
+     
+    </style>
+
+</head>
+<body>
+    <h1>Pseudo- Elementos</h1>
+    <h2 id="vento">Personagens  Anemo</h2>
+    
+    <ul type="square" class="anemo">
+        
+        <li id="um">Kazuha
+        <li id="dois">Venti
+        <li id="tres">Jean
+        <li id="quatro">Sucrose
+        
+
+    </ul>
+
+      
+    <h2 id="fogo"> Personagens Pyro</h2>
+    <ul  class= "pyro" type="square">
+        <li>Amber
+        <li>Hutao
+        <li>Yanfei
+        <li>Yoimia
+    </ul>
+   
+   
+   
+</body>
+</html>

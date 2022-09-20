@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        /*
+        # = id (seletor personalizado único, apenas para um único elemento.)
+        . = class (classe, serve para categorizar vários elementos semelhantes, e posso atribuir uma classe para vários elementos)
+        : = pseudo-class (São classes que mudam o estado do elemento, no caso são palavavras reservadas como: hover, que muda o estado de algum elemento quando o mouse estar por cima (hover) de algo, active que também muda do elemento quando ele está sendo ativo ou ativado por exemplo a sua cor que pode trocar ao pressionar (ativar-active) entre outras pseudo-classes )
+        :: = pseudo-elementos (São elementos que interferem diretamente no conteúdo adicionam elementos ao conteúdo em si)
+        > = children o simbolo > indica que  a > p  ou seja  A é filho de P  
+
+
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:blue;
+            text-decoration: none;
+        }
+        a:visited{
+            color:darkblue;
+        }
+        a:hover{
+            text-decoration:underline;
+            color:#7da0ac;
+        }
+        a:active{
+            color:#2600ff;
+        }
+        a::before{
+            content: "☛";
+        }
+        a::after{
+            content: "☚";
+        }
+    </style>
+   
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>Para aprender HTML5 e CSS3, acesse o 
+        <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">GitHub do Guanabara</a></p>
+        <p>
+            Se quiser conhecer mais sobre os padrões, visite o site do <a href="https://www.w3c.br" target="_blank">Escritório do W3C no Brasil </a>
+        </p>
+        
+        <p>Para acompanhar os cursos, acesse o canal do <a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/" class="especial" target="_blank">Curso em Video</a></p>
+        
+    </body>
+    </html>

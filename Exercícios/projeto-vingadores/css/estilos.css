@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ body{
+    font-family: sans-serif;
+ }
+
+header{
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+header img{
+    width: 180px;	
+}
+
+header a {
+    color: #ebebeb;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+header ul li + li{  
+   margin-left:24px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header a:hover{
+    text-decoration: overline;
+    color:red;
+}

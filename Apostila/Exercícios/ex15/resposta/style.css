@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #081691;
+    color:#FFCD19;
+}
+h1{
+    background-color:#A708A8;
+}
+h2{
+    color:#eeeb3d;
+}
+
+nav{ 
+   
+    text-align: right;
+
+}
+nav > a{
+    color:#081691;
+    text-decoration: none;
+
+}
+#pag2{
+    text-align: left;
+    
+}
+nav:hover{
+    text-decoration: underline;
+    padding-right:20px;
+    
+}
+nav > a:active{
+    color:#081691;
+}
+nav{
+    background-color: #FFCD19;
+    box-shadow: 2px 1px 5px black;
+    padding:2px;
+    margin:0px;
+    border-radius: 10px;
+}

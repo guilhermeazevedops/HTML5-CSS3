@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(199, 245, 245);
+    font:  20px  Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#primeiro{
+    font-family: monospace;
+    color:rgb(11, 87, 36)
+}
+
+#segundo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(6, 134, 247)
+}
+
+#exemplo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aqua;
+}

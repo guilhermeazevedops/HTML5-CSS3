@@ -1,0 +1,28 @@
+
+h1{
+    background-image: linear-gradient(to right, red -11%, blue  , green );
+    color:white;
+    width: 400px;
+    height: 200px;
+    
+    
+}
+
+#ceu{
+    background-image: linear-gradient(to right,#D5E5F2 -13%, #77B3D9 22%,#4EA4D9 29%,#2175BF,#1B65A6  );
+    background-attachment: fixed;
+    width: 500px;
+    height: 200px;
+    color:rgba(53, 53, 185, 0.479);
+}
+#cinza{
+    background-image: linear-gradient(to right, #ebf4f5,#b5c6e0);
+    width: 450px;
+    height: 200px;
+    color: gray
+}
+ #rosa{
+    background-image: linear-gradient(to right, #F8DADC 20%,#EDDDD9,#E2E0D5,#D7E4D2,#CCE7CF,#C1EACB,#B6EDC8);
+    width: 530px;
+    height: 200px;
+ }

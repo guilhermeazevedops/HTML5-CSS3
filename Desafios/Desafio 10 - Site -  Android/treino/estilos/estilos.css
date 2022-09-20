@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@350;400&display=swap');
+@font-face {
+    font-family:'android' ;
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;   
+}
+
+:root{
+    --fonte-header:'Bebas Neue', 'Arial','serif','sans-serif';
+    --fonte-padrao:'Open Sans', sans-serif;
+    --fonte-tematica:'android';
+
+     --cor0:#c5ebd6;
+     --cor1:#83e1ad;
+     --cor2:#3ddc84;
+     --cor3:#2fa866;
+     --cor4:#1a5c37;
+     --cor5:#063d1e;
+    
+
+}
+
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    
+}
+
+header{
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+header h1{
+    font-family: var(--fonte-header);
+    font-weight: normal;
+    color:white;
+    padding: 10px;
+    font-size: 3em;
+    text-shadow: 1px 5px 7px rgba(0, 0, 0, 0.356);
+}
+
+header p{
+    font-family: var(--fonte-padrao);
+    color:white;
+    max-width: 600px;
+    margin:auto;
+    text-shadow: 1px 5px 7px rgba(0, 0, 0, 0.527);
+}
+ nav{
+    background-color: var(--cor5);
+    padding:10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.562);
+    
+ }
+
+ nav a{
+    color:white;
+    margin: 2px;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    
+ }
+ nav a:hover{
+    background-color: #2fa866;
+    transition: 0.5s;
+
+ }
+
+main img.pequena{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+ main img {
+    width:100%;
+ }
+
+main a{
+    text-decoration: none;
+    background-color: var(--cor1);
+    padding: 1px 7px 1px 7px;
+    color:var(--cor5);
+}
+main a:hover{
+    text-decoration: underline;
+    color:var(--cor3);
+}
+main a::after{
+    content: '\1F50D';
+}
+ main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    background-color:white;
+    padding:20px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.356);
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 15px;
+   
+ }
+
+    
+ .video{
+    background-color: var(--cor5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 520px;
+   
+    
+ }   
+
+iframe{
+ 
+    width: 90%;
+    height: 90%;
+   
+  
+}
+
+ main>article>h1{
+   
+    font-family: var(--fonte-tematica);
+    font-weight: normal;
+    color:var(--cor5);
+ }
+
+ main>article>h2 {
+    
+    font-family: var(--fonte-tematica);
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor1) , transparent);
+    color:var(--cor4);
+ }
+
+main p{
+    padding:10px;
+    text-indent: 15px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    
+}
+
+strong{
+    color:var(--cor4);
+}
+
+
+aside{
+    background-color: var(--cor1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.397);
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+aside strong{
+    color:var(--cor5);
+}
+aside h1{
+    background-color: var(--cor4);
+    color:white;
+    font-weight: normal;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+
+}
+abbr{
+    text-decoration: none;
+}
+
+abbr:hover{
+    text-decoration: underline;
+    
+}
+aside ul{
+    columns: 2;
+    list-style-position: inside;
+    padding:5px;
+    padding-left: 30px;
+    
+   
+}
+
+footer{
+    background-color: var(--cor5);
+    text-align: center;
+    padding:3px;
+}
+
+footer p{
+    color:white;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color:var(--cor3);
+}
+
+
+
