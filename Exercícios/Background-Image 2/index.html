@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando a propriedade background-image</title>
+    <style>
+        .quadrado{
+           display: inline-block;
+           border: 2px solid black;
+           border-radius: 10px;
+           height:400px;
+           width: 400px;
+           margin-left: 20px;
+           background-color: aqua;
+           padding:10px;
+        }
+        #degrade{
+            background-image: linear-gradient(to right,  aqua, blue);
+        }
+        #imagem{
+            background-image: url(imagens/imagem1-p.jpg);
+        }
+        #zhongli{
+            background-image: url(imagens/imagem2.jpg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="quadrado"></div>
+    <div class="quadrado" id="degrade"></div>
+    <div class="quadrado" id="imagem"></div>
+    <div class="quadrado" id="zhongli"> </div>
+    <div class="quadrado" id="imagem"></div>
+    <div class="quadrado" id="zhongli"></div>
+</body>
+</html>
